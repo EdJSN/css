@@ -1,0 +1,129 @@
+ul li span{
+    color: red;
+}
+
+* {
+color: antiquewhite;
+}
+
+span{ 
+    background-color: aqua;
+}
+
+.ejemplo{
+text-align: center;
+}
+
+#ejemplo{
+border: 0cqmax;
+}
+
+a[title] {
+background-color: aquamarine;
+}
+
+a:ejemplo {
+
+}
+
+div p {
+    color: darkgreen;
+  }
+
+  div > p {
+    font-weight: bold;
+  }
+
+  h2 + p {
+    margin-top: 0;
+  }
+
+  h2 ~ p {
+    border-left: 2px solid blue;
+  }
+
+  #ejemplo{
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    margin-left: 80px
+  }
+
+  #ejemplo{
+    margin: 20px 30px 70px 80px;
+  }
+
+  div {
+    background: #3d8bb1 /* blue */;
+  }
+  .parent {
+    margin-top: 30px;
+  }
+  .child {
+    margin-top: 10px;
+  }
+
+  .ejemplo{
+    padding: 10px 50px 20px;
+  }
+
+div{
+border: 1px solid #C00;
+}
+
+h1 {
+    color: red !important;
+}
+
+h1 {
+    color: blue;
+}
+
+body{
+    color: blue;
+  }
+  
+  span {
+    color: black;
+  }
+
+  .ejemplo{
+    border: 1px solid;
+  }
+
+  .ejemplo{
+    border-radius: 10px
+  }
+
+  .ejemplo{
+    box-shadow: 5px 5px;
+  }
+
+  .ejemplo{
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
+  }
+
+  .ejemplo{
+    color: rgb(red, green, blue);
+  }
+
+  .ejemplo{
+    color: #69eaff;
+  }
+
+  .ejemplo{
+    background-color: hsl(120deg 25% 75%);
+    }
+
+    .ejemplo{
+        background-color: rebeccapurple;
+        }
+
+.ejemplo{
+background-size: 50%;
+background-position: center 10%;
+}
+
+body{
+    background: radial-gradient(red, yellow, rgb(30, 144, 255));
+  }
