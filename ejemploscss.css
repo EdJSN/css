@@ -127,3 +127,41 @@ background-position: center 10%;
 body{
     background: radial-gradient(red, yellow, rgb(30, 144, 255));
   }
+
+  #ejemplo {
+    font-size: 100%;
+  }
+
+  h1{
+    font-family: Lucida Sans;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+#ejemplo {
+  font-size: 4rem;
+}
+
+#ejemplo {
+  font-size: 2em;
+}
+
+.ejemplo {
+  width: 50vw;
+}
+  .ejemplo {
+    width: 50vh;
+}
+.ejemplo {
+  width: 50vmin;
+}
+.ejemplo {
+  width: 50vmax;
+}
+.ejemplo {
+  width: 50vi;
+  height: 50vb;
+}
