@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(0, 0, 0);
+}
+h1{
+  color: #fff;
+}
+main h1{
+  color: pink;
+  font-size: 40px;
+}
+
+main p{
+  color: steelblue;
+}
+.color-titulo{
+  color: aqua;
+}
+#identificador{
+  background-color: rgb(221, 131, 12);
+  color: bisque;
+}
+
+[href="https://oferta.senasofiaplus.edu.co/sofia-oferta/"]
+{
+  color: #fff; text-decoration: none;
+}
+
+h1, h2{
+  color: brown;
+  font-size: 45px;
+}
