@@ -18,13 +18,10 @@ text-align: center;
 border: 0cqmax;
 }
 
-a[title] {
+[title] {
 background-color: aquamarine;
 }
 
-a:ejemplo {
-
-}
 
 div p {
     color: darkgreen;
@@ -147,6 +144,20 @@ body{
 
 #ejemplo {
   font-size: 2em;
+}
+
+.ejemplo {
+  max-width: 1200px;
+  min-width: 300px;
+}
+
+.ejemplo {
+  max-height: 1200px;
+  min-height: 300px;
+}
+
+.ejemplo {
+  overflow: hidden;
 }
 
 .ejemplo {

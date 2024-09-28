@@ -1,0 +1,48 @@
+INICIO
+    DECLARAR notas COMO ARREGLO DE ENTEROS[5]
+    DECLARAR suma COMO ENTERO
+    DECLARAR i COMO ENTERO
+    DECLARAR maxNota COMO ENTERO
+    DECLARAR minNota COMO ENTERO
+    DECLARAR promedio COMO REAL
+
+    suma <- 0
+    i <- 0
+
+    MIENTRAS i < 5 HACER
+        ESCRIBIR "Ingrese la nota", i + 1, "entre 0 y 10:"
+        LEER notas[i]
+
+        MIENTRAS notas[i] < 0 O notas[i] > 10 HACER
+            ESCRIBIR "Nota inválida. Ingrese nuevamente la nota entre 0 y 10:"
+            LEER notas[i]
+        FIN MIENTRAS
+
+        suma <- suma + notas[i]
+        i <- i + 1
+    FIN MIENTRAS
+
+    maxNota <- notas[0]
+    minNota <- notas[0]
+
+    PARA j DESDE 1 HASTA 4 HACER
+        SI notas[j] > maxNota ENTONCES
+            maxNota <- notas[j]
+        FIN SI
+        
+        SI notas[j] < minNota ENTONCES
+            minNota <- notas[j]
+        FIN SI
+    FIN PARA
+
+    promedio <- suma / 5
+
+    ESCRIBIR "Notas ingresadas:"
+    PARA j DESDE 0 HASTA 4 HACER
+        ESCRIBIR notas[j]
+    FIN PARA
+
+    ESCRIBIR "La nota promedio es:", promedio
+    ESCRIBIR "La nota más alta es:", maxNota
+    ESCRIBIR "La nota más baja es:", minNota
+FIN
